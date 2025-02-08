@@ -1,6 +1,6 @@
 {
   "name": "use-extract-state",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -8,6 +8,10 @@
   "scripts": {
     "test": "vitest",
     "build": "tsc --project tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:davidnormo/use-extract-state"
   },
   "keywords": [],
   "author": "",
