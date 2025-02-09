@@ -1,5 +1,7 @@
 # `useExtractState`
 
+![CI state](https://github.com/davidnormo/use-extract-state/actions/workflows/node.js.yml/badge.svg)
+
 A React hook for deriving state but keeping it in sync when it's dependencies change.
 
 ```tsx
