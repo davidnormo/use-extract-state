@@ -1,6 +1,6 @@
 {
   "name": "use-extract-state",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,6 +12,9 @@
   "repository": {
     "type": "git",
     "url": "github:davidnormo/use-extract-state"
+  },
+  "bugs": {
+    "url": "https://github.com/davidnormo/use-extract-state/issues"
   },
   "keywords": [],
   "author": "",

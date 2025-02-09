@@ -4,7 +4,7 @@ A React hook for deriving state but keeping it in sync when it's dependencies ch
 
 ```tsx
 const Counter = ({ count }: { count: number }) => {
-  // Count can be modified locally but kept in sync if the prop changes
+  // `count` can be modified locally but kept in sync if the prop changes
   const [localCount, setCount] = useExtractState(count);
 
   return <div onClick={() => setCount((n) => n + 1)}>Count: {localCount}</div>;
